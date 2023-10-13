@@ -1,0 +1,122 @@
+@media screen and (max-width:960px){
+
+    /* banner config */
+
+    .content-text-information-banner {
+        position: relative;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .main-container-banner {
+        position: relative;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 3em;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #0000004d;
+    }
+
+    .main-image {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        background-image: url('../img/cartoon.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    } 
+
+    /* menu list */
+
+    .bi-list {
+        cursor: pointer;
+        font-size: 1.5em;
+        color: #fff;
+        text-align: center;
+    }
+
+    .icon-burguer {
+        position: relative;
+        transform: translateY(6%);
+    }
+
+    /* title navbar */
+    .logo-title p {
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        margin-bottom: auto;
+        transform: translateY(5%);
+    }
+
+    /* second section */
+    .container-title-section {
+        display: flex;
+        margin: 0;
+        justify-content: center;
+    }
+
+    #carouselExampleDark .carousel-control-prev {
+        display: none;
+    }
+
+    #carouselExampleDark .carousel-control-next {
+        display: none;
+    }
+
+    /* selection indicator boots */
+
+    #carouselExampleDark .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: -15rem;
+        list-style: none;
+    }
+
+    .third-section {
+        margin-top: 5em;
+    }
+
+    .container-arrow-next-session-second {
+        border-top: 1px solid #0000004d;
+        margin-top: 17em;
+    }
+  
+    .container-count-services {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Footer */
+
+    .main-container-footer {
+        max-width: 100%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        bottom: 0em;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        background-color: #000;
+        color: #fff;
+        align-items: center;
+        padding: 1.2em;
+    }
+}
